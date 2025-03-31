@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegibilidade para Aposentadoria por Idade</title>
+</head>
+<body>
+    <center>
+        <h1>Elegibilidade para Aposentadoria por Idade</h1>
+
+        <script>
+     var nome = prompt ("Digite seu nome.")
+     var idade = parseFloat (prompt("Digite a sua idade."))
+     var sexo = prompt ("Qual o seu sexo? F(feminino) M(masculino)")
+
+     if (idade >= "60" && sexo == "F" || idade >= "65" && sexo == "M") {
+        document.write ("Você pode solicitar a aposentadoria por idade.")
+     } else {
+        alert ("Você ainda não pode solicitar a aposentadoria por idade.")
+     }
+
+        </script>
+    </center>
+</body>
+</html>
